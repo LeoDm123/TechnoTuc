@@ -147,6 +147,10 @@
     height: 60px;
 }
 
+.Compare. .CLRS {
+    width:30% ;
+}
+
 .list-group-item {
     background-color: #c8c8c8 !important;
     border-color: #c8c8c8 !important;
@@ -154,4 +158,54 @@
 
 .list-group-item p {
     margin: 0;
+}
+
+.compare h5 {
+    color: #7E7B7B;
+    font-weight: normal;
+}
+
+.compare ul {
+    display: inline-block;
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+.compare li p {
+    color: #7E7B7B;
+    margin:0;
+    width: 250px;
+}
+
+.HUD {
+    height: 120px;
+}
+
+.SOS {
+    height: 100px;
+}
+
+.CAM {
+    height: 250px;
+}
+
+.STAB {
+    height: 100px;
+}
+
+.BAT {
+    height: 80px;
+}
+
+.CHIP {
+    height: 100px;
+}
+
+.ID {
+    height: 100px;
+}
+
+.FG {
+    height: 100px;
 }
