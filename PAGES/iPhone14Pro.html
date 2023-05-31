@@ -42,17 +42,18 @@
                         <a class="nav-link text-light active" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <div class="dropdown">
-                        <a class="nav-link dropdown-toggle ms-3 text-light" href="PAGES/Marketplace.html" data-bs-toggle="dropdown" aria-expanded="false">
-                        Comprar
-                        </a>                    
-                        <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="../PAGES/iPhone.html">iPhone</a></li>
-                            <li><a class="dropdown-item" href="#">iPad</a></li>
-                            <li><a class="dropdown-item" href="#">Mac</a></li>
-                            <li><a class="dropdown-item" href="#">Watch</a></li>
-                            <li><a class="dropdown-item" href="#">Airpods</a></li>
-                            <li><a class="dropdown-item" href="#">Tv y Casa</a></li>
-                        </ul>
+                      <a class="nav-link dropdown-toggle ms-3 text-light" href="PAGES/Marketplace.html" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                      </a>
+                  
+                      <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="./iPhone.html">iPhone</a></li>
+                      <li><a class="dropdown-item" href="#">iPad</a></li>
+                      <li><a class="dropdown-item" href="#">Mac</a></li>
+                      <li><a class="dropdown-item" href="#">Watch</a></li>
+                      <li><a class="dropdown-item" href="#">Airpods</a></li>
+                      <li><a class="dropdown-item" href="#">Tv y Casa</a></li>
+                      </ul>
                     </div>
                     <li class="nav-item ms-3">
                         <a class="nav-link text-light" href="#">Sobre nosotros</a>
@@ -74,80 +75,38 @@
             <!-- Final de las páginas -->
             <!-- FINAL DEL NAVBAR -->
         </div>
-    </nav>  
-    <!-- FINAL DEL HEADER -->
-
+      </nav>        
+      <!-- FINAL DEL HEADER -->
+    
     <!-- COMIENZO DEL MAIN -->
     <main>
-        <!-- COMIENZO MODELOS DE TELEFONOS -->
-        <nav class="bg-title">
+        <!-- COMIENZO DE BANNER PRINCIPAL -->
+        <nav class="bg-dark sticky-top border-bottom border-light">
             <div class="text-white container">
-                <div class="row justify-content-center">
-                    <ul class="col-8 list-group list-group-horizontal PhoneIcons">
-                        <li class="text-center list-group-item flex-fill"> 
-                            <a class="PhoneLink" href="./iPhone14Pro.html">                           
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/iphone14pro.svg" alt="">
-                                <p>iPhone 14 Pro</p>
-                            </a>                            
-                        </li>
-                        <li class="text-center list-group-item flex-fill">
-                            <div>
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/iphone14.svg" alt="">
-                                <p>iPhone 14</p>
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="d-flex text-center">iPhone 14 Pro</h2>                    
+                    <div class="w-25 d-flex flex-column">
+                        <div class="d-flex justify-content-between py-2">
+                            <a class="text-white nav-link-phones" href="./iPhone14Pro.html">Descripción</a>
+                            <a class="text-white nav-link-phones" href="./iPhone14ProEsp.html">Especificaciones</a>
+                            <a class="text-white nav-link-phones" href="#">Comprar</a>
+                        </div>
+                        <div class="d-flex py-1 justify-content-between align-items-center">
+                            <p class="mb-0">Colores</p>
+                            <div class="d-flex align-self-center pb-2">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" class="active color-btn purple" aria-current="true" onclick="changePictureSet(1)"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" class="color-btn gold" onclick="changePictureSet(2)"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" class="color-btn silver"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" class="color-btn black"></button>
                             </div>
-                        </li>
-                        <li class="text-center list-group-item flex-fill">
-                            <div>
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/iphone13.svg" alt="">
-                                <p>iPhone 13</p>
-                            </div>
-                        </li>
-                        <li class="text-center list-group-item flex-fill">
-                            <div>
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/iphoneSE.svg" alt="">
-                                <p>iPhone SE</p>
-                            </div>
-                        </li>
-                        <li class="text-center list-group-item flex-fill">
-                            <div>
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/iphone12.svg" alt="">
-                                <p>iPhone 12</p>
-                            </div>
-                        </li>
-                        <li class="text-center list-group-item flex-fill">
-                            <div>
-                                <img class="PhoneIcon" src="../ASSETS/IMAGES/CATEGORIAS/Phones/Comparar.svg" alt="">
-                                <p>Comparar</p>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
-        <!-- FINAL MODELOS DE TELEFONOS -->
-
-        <!-- COMIENZO CAROUSEL IPHONE 14 -->
-        <div class="container">
-            <h2 class="pt-4 text-center">iPhone 14</h2>
-            <h1 class="pb-4 text-center">Hay uno para cada gusto, enontrá el tuyo.</h1>
-            <div class="d-flex justify-content-center">
-                <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary">Comprar</a></p>
-                <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary-rev">Más información</a></p>
-            </div>
-            <div class="row justify-content-center">
-                <img class="img-fluid" src="../ASSETS/IMAGES/CATEGORIAS/iPhone 14.jpg" alt="">
-            </div>            
-        </div>
-        <!-- FINAL CAROUSEL IPHONE 14 -->
-
-        <!-- COMIENZO CAROUSEL IPHONE 14 PRO -->
         <div class="col-12 text-white bg-black">
             <div class="container">
-                <h1 class="py-3 text-center">Mucho más que Pro.</h1>
-                <div class="d-flex justify-content-center">
-                    <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary">Comprar</a></p>
-                    <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary-rev">Más información</a></p>
-                </div>
+                <h1 class="py-3">Mucho más que Pro.</h1>
                 <!-- <video id="hero-intro-video" class="inline-media prod-video" aria-hidden="true" preload="none" data-load-timeout="3000" data-inline-media-plugins="AnimLoad, FeatureObserver, LoadTimeout, VatPathWithExtensions" data-inline-media-disabled-when="reduce-motion, no-enhance-page-xp-media" data-inline-media-locale="mx" data-inline-media-name="hero" data-inline-media-basepath="iphone-14-pro/2023/b094f6e4-dcdb-494f-bd72-45d659126dcd/anim/" data-inline-media="" muted="" playsinline="" autoplay="" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/Morado Oscuro.mp4"></video> -->
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -198,30 +157,101 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
-            </div>            
-        </div>
-        <!-- FINAL CAROUSEL IPHONE 14 PRO -->
-
-        <!-- COMIENZO CAROUSEL IPHONE SE -->
-        <div class="container d-flex align-items-center justify-content-center">
-            <div>
-                <h2 class="pt-4 text-center">iPhone SE</h2>
-                <h1 class="pb-4 text-center">Tan sencillo que enamora</h1>            
-                <div class="d-flex justify-content-center">
-                    <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary">Comprar</a></p>
-                    <p class="text-center mx-3 mb-5"><a href="./PAGES/iPhone.html" class="btn btn-primary-rev">Más información</a></p>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <img class="img-fluid" src="../ASSETS/IMAGES/CATEGORIAS/iPhone SE.jpg" alt="">
             </div>            
         </div>
-        <!-- FINAL CAROUSEL IPHONE SE -->
+        <!-- FINAL DE BANNER PRINCIPAL -->
 
-        <!-- COMIENZO SEPARADOR -->
-        <div class="h-25 bg-title"><br></div>
-        <!-- FINAL SEPARADOR -->
+        <!-- COMIENZO SEPARADOR COMPRA  -->
+        <div class="bg-title pt-4">
+            <div class="container bg-title text-center">
+                <h1>iPhone 14 Pro y iPhone 14 Pro Max</h1>
+                <div class="py-3">
+                    <p class="text-center"><a href="./PAGES/iPhone.html" class="btn btn-primary-blue">Comprar</a></p>
+                </div> 
+            </div>
+        </div>
+        <!-- FINAL SEPARADOR COMPRA  -->
+
+        <!-- COMIENZO CARDS PROPIEDADES -->
+        <div class="bg-title">
+            <!-- COMIENZO FILA 1 -->
+            <div class="container d-flex justify-content-around">
+                <!-- Comienzo Dynamic Island -->
+                <div class="prop-card col-md-7 bg-black justify-content-center">
+                    <h1 class="DI-purple text-center">Descubre Dinamic Island</h1>
+                    <img id="DynamicIslandImg" class="prop-img-centered w-75" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/DIMorado.jpg" alt="">
+                </div>
+                <!-- Final Dynamic Island -->
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <!-- Comienzo Deep Cam -->
+                    <div class="prop-img-card bg-black position-relative">
+                        <img id="DeepCamImg" class="prop-img-centered" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/DeepMorado.jpg" alt="">
+                        <div class="gradient-overlay"></div>
+                        <h3 class="prop-txt-cam">Cámara gran angular de 48 MP. Detalles a lo grande.</h3>
+                    </div>
+                    <!-- Final Deep Cam -->
+                    <!-- Comienzo Chip -->
+                    <div class="prop-img-card bg-black position-relative mt-4">
+                        <img id="ChipImg" class="prop-img-chip" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/ChipMorado.jpg" alt="">
+                        <h1 class="prop-txt-chip">El cerebro detrás de todo.</h1>
+                    </div>
+                    <!-- Final Chip -->
+                </div>           
+            </div>
+            <!-- FINAL FILA 1 -->
+        
+            <!-- COMIENZO FILA 2 -->
+            <div class="container d-flex justify-content-around mt-4">
+                <!-- Comienzo Modo Acción -->
+                <div class="prop-img-card bg-title position-relative col-md-4">
+                    <div class="gradient-overlay-AM"></div>
+                    <div class="prop-txt-AM text-center">
+                        <h3>Modo Acción</h3>
+                        <h1>Videos estables, sin sobresaltos.</h1>
+                    </div>
+                    <video class="AM-purple" aria-hidden="true" preload="none" data-load-timeout="3000" data-inline-media-plugins="AnimLoad, FeatureObserver, LoadTimeout, VatPathWithExtensions" data-inline-media-disabled-when="reduce-motion, no-enhance-page-xp-media" data-inline-media-locale="mx" data-inline-media-name="hero" data-inline-media-basepath="iphone-14-pro/2023/b094f6e4-dcdb-494f-bd72-45d659126dcd/anim/" data-inline-media="" muted="" playsinline="" autoplay="" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/ActionPurple.mp4"></video>
+                </div>
+                <!-- Final Modo Acción -->
+                <!-- Comienzo Always On -->
+                <div class="prop-card col-md-7 bg-black justify-content-center">
+                    <h1 class="AO-purple text-center">Pantalla siempre activa. Una forma brillante de que no te pierdas nada.</h1>
+                    <img id="AlwaysOnImg" class="prop-img-centered" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/AlwaysOnMorado.jpg" alt="">
+                </div>
+                <!-- Final Always On -->
+            </div>
+            <!-- FINAL FILA 2 -->
+        
+            <!-- COMIENZO FILA 3 -->
+            <div class="container d-flex justify-content-around mt-4 pb-4">
+                <!-- Comienzo Ceramic Shield -->
+                <div class="prop-card col-md-7 bg-black justify-content-center">
+                    <div class="Ceramic-txt text-center">
+                        <h3>Ceramic Shield</h3>
+                        <h1>Más resistente que cualquier vidrio de smartphone.</h1>
+                    </div>
+                    <img id="CeramicShieldImg" class="Ceramic-img prop-img-centered" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/CeramicPurple.jpg" alt="">
+                </div>
+                <!-- Final Ceramic Shield -->
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <!-- Comienzo Water Resist -->
+                    <div class="prop-img-card bg-black position-relative">
+                        <img id="WaterResistImg" class="prop-img-centered" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/WResistPurple.jpg" alt="">
+                        <h3 class="WR-txt">(Así que relájate).</h3>
+                    </div>
+                    <!-- Final Water Resist -->
+                    <!-- Comienzo Selfie -->
+                    <div class="prop-img-card bg-black position-relative mt-4">
+                        <h1 class="Selfie-txt">Selfies para tomarles foto.</h1>
+                        <img id="SelfieImg" class="p-3 prop-img-centered" src="../ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/PROPS/SelfiePurple.jpg" alt="">                
+                    </div>
+                    <!-- Final Selfie -->
+                </div>           
+            </div>
+            <!-- FINAL FILA 3 -->
+        </div>
+        <!-- FINAL CARDS PROPIEDADES -->
+
 
         <!-- COMIENZO CAROUSEL MODELOS -->
         <div class="container d-flex justify-content-between mt-5">
@@ -462,112 +492,115 @@
             <!-- FINAL iPHONE SE -->
         </div>
         <!-- COMIENZO CAROUSEL MODELOS -->
-    </main>
     <!-- FINAL DEL MAIN -->
 
-<!-- COMIENZO DEL FOOTER -->
-<footer class="bg-dark" id="tempaltemo_footer">
-    <div class="container">
-        <div class="row">
+    <!-- COMIENZO DEL FOOTER -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+      <div class="container">
+          <div class="row">
 
-            <div class="col-md-4 pt-5">
-                <img src="../ASSETS/IMAGES/LOGO/Logo-Color-Transp.png" alt="" class="col-9">
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li>
-                        <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Balcarce 811 - 3°E
-                    </li>
-                    <li>
-                        <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none footer-txt" href="tel:3816022854">+5493816022854</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none footer-txt" href="mailto:info@company.com">info@technotuc.com</a>
-                    </li>
-                </ul>
-            </div>
+              <div class="col-md-4 pt-5">
+                  <img src="../ASSETS/IMAGES/LOGO/Logo-Color-Transp.png" alt="" class="col-9">
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li>
+                          <i class="fas fa-map-marker-alt fa-fw"></i>
+                          Balcarce 811 - 3°E
+                      </li>
+                      <li>
+                          <i class="fa fa-phone fa-fw"></i>
+                          <a class="text-decoration-none footer-txt" href="tel:3816022854">+5493816022854</a>
+                      </li>
+                      <li>
+                          <i class="fa fa-envelope fa-fw"></i>
+                          <a class="text-decoration-none footer-txt" href="mailto:info@company.com">info@technotuc.com</a>
+                      </li>
+                  </ul>
+              </div>
 
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 footer-title border-bottom pb-3 border-light">Productos</h2>
-                <div class="d-flex">
-                    <ul class="list-unstyled text-light footer-link-list me-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">iPhone</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">iPad</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Mac</a></li>
-                    </ul>
-                    <ul class="list-unstyled text-light footer-link-list ms-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">Watch</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Airpods</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Tv y Casa</a></li>
-                    </ul>
-                </div>
-            </div>
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 footer-title border-bottom pb-3 border-light">Productos</h2>
+                  <div class="d-flex">
+                      <ul class="list-unstyled text-light footer-link-list me-5">
+                          <li><a class="text-decoration-none footer-txt" href="#">iPhone</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">iPad</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Mac</a></li>
+                      </ul>
+                      <ul class="list-unstyled text-light footer-link-list ms-5">
+                          <li><a class="text-decoration-none footer-txt" href="#">Watch</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Airpods</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Tv y Casa</a></li>
+                      </ul>
+                  </div>
+              </div>
 
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 footer-title border-bottom pb-3 border-light">Más información</h2>
-                <div class="d-flex">
-                    <ul class="list-unstyled text-light footer-link-list me-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">Inicio</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Sobre nosotros</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Ubicación</a></li>                    
-                    </ul>
-                    <ul class="list-unstyled text-light footer-link-list ms-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 footer-title border-bottom pb-3 border-light">Más información</h2>
+                  <div class="d-flex">
+                      <ul class="list-unstyled text-light footer-link-list me-5">
+                          <li><a class="text-decoration-none footer-txt" href="#">Inicio</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Sobre nosotros</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Ubicación</a></li>                    
+                      </ul>
+                      <ul class="list-unstyled text-light footer-link-list ms-5">
+                          <li><a class="text-decoration-none footer-txt" href="#">FAQs</a></li>
+                          <li><a class="text-decoration-none footer-txt" href="#">Contacto</a></li>
+                      </ul>
+                  </div>
+              </div>
 
-        </div>
+          </div>
 
-        <div class="row text-light mb-4">
-            <div class="col-12 mb-3">
-                <div class="w-100 my-3 border-top border-light"></div>
-            </div>
-            <div class="col-auto me-auto">
-                <ul class="list-inline text-left footer-icons">
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-auto">
-                <label class="sr-only" for="subscribeEmail">Dirección de Email</label>
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Dirección de Email">
-                    <div class="input-group-text btn-primary">Subscribirse</div>
-                </div>
-            </div>
-        </div>
-    </div>
+          <div class="row text-light mb-4">
+              <div class="col-12 mb-3">
+                  <div class="w-100 my-3 border-top border-light"></div>
+              </div>
+              <div class="col-auto me-auto">
+                  <ul class="list-inline text-left footer-icons">
+                      <li class="list-inline-item h2 ms-2">
+                          <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="bi bi-facebook"></i></a>
+                      </li>
+                      <li class="list-inline-item h2 ms-2">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                      </li>
+                      <li class="list-inline-item h2 ms-2">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                      </li>
+                      <li class="list-inline-item h2 ms-2">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-auto">
+                  <label class="sr-only" for="subscribeEmail">Dirección de Email</label>
+                  <div class="input-group mb-2">
+                      <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Dirección de Email">
+                      <div class="input-group-text btn-primary">Subscribirse</div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-    <div class="w-100 bg-black py-3">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-12">
-                    <p class="text-left text-light">
-                        Copyright &copy; 2021 Company Name 
-                        | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+      <div class="w-100 bg-black py-3">
+          <div class="container">
+              <div class="row pt-2">
+                  <div class="col-12">
+                      <p class="text-left text-light">
+                          Copyright &copy; 2021 Company Name 
+                          | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-</footer>
-<!-- FINAL DEL FOOTER -->
+    </footer>
+    <!-- FINAL DEL FOOTER -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../JS/Colors.js"></script>
 
 </body>
 </html>

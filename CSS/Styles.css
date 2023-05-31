@@ -1,3 +1,20 @@
+/* INDEX */
+.z-3 {
+    z-index: 5000; 
+}
+
+/* PAGINA PRINCIPAL */
+.Publicidad {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Publicidad img {
+    object-fit: contain;
+    width: 100%;
+}
+
 /* BACKGOROUND */
 .bg-footer {
     background-color: #7E7B7B !important;
@@ -82,6 +99,18 @@
     color: #c8c8c8 !important;
 }
 
+.btn-primary-blue {
+    background-color: #0074d9 !important;  
+    border-color: #0074d9 !important;
+    color: #c8c8c8 !important;
+}
+
+.btn-primary-blue:hover {
+    background-color: #c8c8c8 !important;  
+    border-color: #0074d9 !important;
+    color: #0074d9 !important;
+    font-weight: bold !important;
+}
 
 .bi-caret-right {
     color: #0074d9 !important;
@@ -147,8 +176,9 @@
     height: 60px;
 }
 
-.Compare. .CLRS {
-    width:30% ;
+.PhoneLink {
+    text-decoration: none;
+    color: black;
 }
 
 .list-group-item {
@@ -208,4 +238,386 @@
 
 .FG {
     height: 100px;
+}
+
+/* IPHONE 14 PRO */
+.color-btn {
+    width: 20px;
+    height: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.purple {
+    background-color:#594f63;
+}
+
+.gold {
+    background-color:#f4e8ce;
+}
+
+.silver {
+    background-color:#f0f2f2;
+}
+
+.black {
+    background-color:#403e3d;
+}
+
+.nav-link-phones {
+    text-decoration: none;
+    align-self: center;
+}
+
+.nav-link-phones:hover {
+    color: #0074d9 !important;
+}
+
+.DI-purple {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.prop-card {
+    border-radius: 30px !important;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.prop-img-card {
+    border-radius: 30px !important;
+}
+
+.prop-img {
+    object-fit: cover !important;
+    border-radius: 30px !important;
+    width: 100%;
+}
+
+.prop-img-centered {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.prop-txt-cam {
+    position: absolute;
+    white-space: pre-line;
+    width: 300px;
+    bottom: 20px;
+    left: 50px;
+    color: #c8c8c8;
+}
+
+.gradient-overlay {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0,0,0,0),black);
+    z-index: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.prop-img-chip {
+    object-fit: cover !important;
+    width: 100%;
+    position: relative;
+    top:220px;
+    left:50px;
+    clip-path: inset(0 50px 220px 0 round 0 0 30px 0);
+}
+
+.prop-txt-chip {
+    position: absolute;
+    white-space: pre-line;
+    width: 200px;
+    bottom: 180px;
+    left: 50px;
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AO-purple {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.AM-purple {
+    object-fit: cover !important;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.prop-txt-AM {
+    position: absolute;
+    white-space: pre-line;
+    width: 300px;
+    bottom: 525px;
+    left: 70px;
+    color: #c8c8c8;
+}
+
+.gradient-overlay-AM {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.92));
+    z-index: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.Ceramic-txt h1 {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 50px;
+}
+
+.Ceramic-txt h3 {
+    color: #c8c8c8;
+    padding-top: 50px;
+}
+
+.Ceramic-img {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.WR-txt {
+    position: absolute;
+    white-space: pre-line;
+    width: 300px;
+    bottom: 70px;
+    left: 100px;
+    color: #c8c8c8;
+}
+
+.Selfie-txt {
+    color: #c8c8c8;
+    padding: 30px;
+}
+
+.Choques-purple {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.comparison h1 {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.comparison h3 {
+    color: #c8c8c8;
+}
+
+/* IPHONE 14 ESPECIFICACIONES */
+.Acabado h5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #c8c8c8;
+    width: 330px;
+    text-align: center;
+}
+
+.Acabado p {
+    color: #c8c8c8;
+    width: 330px;
+    text-align: center;
+    margin: 0;
+}
+
+.Acabado img {
+    width: auto;
+}
+
+.AcabadoMax h5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #c8c8c8;
+    width: 340px;
+    text-align: center;
+}
+
+.AcabadoMax p {
+    color: #c8c8c8;
+    width: 340px;
+    text-align: center;
+    margin: 0;
+}
+
+.AcabadoMax img {
+    width: auto;
+}
+
+.Capacidad h5 {
+    color: #c8c8c8;
+    width: 300px;
+    text-align: center;
+}
+
+.Dimensions h5 {
+    color: #c8c8c8;
+}
+
+.Dimensions p {
+    color: #c8c8c8;
+}
+
+.Alto {
+    position: absolute;
+    left:30px;
+    top:30px;
+}
+
+.Ancho {
+    position: absolute;
+    right: 50px;
+    top:10px;
+}
+
+.Grosor {
+    position: absolute;
+    right: 110px;
+    bottom: 25px;
+}
+
+.Screen p {
+    color: #c8c8c8;
+    width: 360px;
+    text-align: start;
+    margin: 5px;
+}
+
+.Screen h5 {
+    color: #c8c8c8;
+    width: 360px;
+    text-align: start;
+    margin: 5px;
+}
+
+.Screen img {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.Screen-global p {
+    color: #c8c8c8;
+    width: 700px;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Screen-global h5 {
+    color: #c8c8c8;
+    width: 360px;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.fs-7 {
+    font-size:smaller    !important;
+}
+
+.Resist p {
+    color: #c8c8c8;
+    width: 700px;
+}
+
+.Chip {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.Chip p {
+    color: #c8c8c8;
+    width: 700px;
+    text-align: start;
+    line-height: 15px;
+}
+
+.Botones img {
+    padding-bottom: 40px;
+}
+
+.Volumen {
+    color: #c8c8c8;
+    position: absolute;
+    width: 80px;
+    right: 195px;
+    top:-40px; 
+    font-size: small;
+}
+
+.Timbre {
+    color: #c8c8c8;
+    position: absolute;
+    width: 80px;
+    right: 105px;
+    top:-30px; 
+    font-size: small; 
+}
+
+.Lateral {
+    color: #c8c8c8;
+    position: absolute;
+    width: 80px;
+    right: 215px;
+    top:440px; 
+    font-size: small; 
+}
+
+.Bocina {
+    color: #c8c8c8;
+    position: absolute;
+    width: 150px;
+    right: -65px;
+    top:440px; 
+    font-size: small; 
+}
+
+.Conector {
+    color: #c8c8c8;
+    position: absolute;
+    width: 150px;
+    right: 470px;
+    bottom:140px; 
+    font-size: small; 
+}
+
+.Microfono {
+    color: #c8c8c8;
+    position: absolute;
+    width: 100px;
+    right: 500px;
+    bottom: -20px; 
+    font-size: small; 
+}
+
+.Stereo {
+    color: #c8c8c8;
+    position: absolute;
+    width: 100px;
+    right: 400px;
+    bottom: -20px; 
+    font-size: small;  
 }
