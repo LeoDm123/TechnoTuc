@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio - AppleTuc - Representantes oficiales de Apple en el NOA</title>
 
     <link rel="stylesheet" href="CSS/Styles.css">
 
@@ -13,70 +13,125 @@
 
 </head>
 <body>
-   <!-- COMIENZO DEL HEADER -->        
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-body">
-            <div class="container-fluid">
-                <div class="col-4">
+    <!-- COMIENZO DEL HEADER -->        
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-body">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Comienzo Logo -->
+                <div class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3">
                     <a class="navbar-brand" href="index.html">
-                        <img src="ASSETS/IMAGES/LOGO/Logo-Color-Transp.png" alt=""  class="col-7">
+                        <img src="ASSETS/IMAGES/LOGO/Logo-Color-Transp.png" alt="" class="col-12">
                     </a>
                 </div>
-                <!-- COMIENZO DEL NAVBAR -->
-                <!-- Comienzo del buscador -->
-                <div class="col-4 d-flex justify-content-center">
-                    <form class="d-flex col-8">
-                        <input class="form-control me-2" type="search" placeholder="Buscar producto..." aria-label="Search">
-                        <button class="btn btn-primary-rev" type="submit">Buscar</button>
-                        </form>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <!-- Final del buscador -->
+                <!-- Final Logo -->
 
-                <!-- Comienzo de las páginas -->
-                <div class="col-4 d-flex justify-content-end">
-                    <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item ms-3">
-                                <a class="nav-link text-light active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <div class="dropdown">
-                                <a class="nav-link dropdown-toggle ms-3 text-light" href="PAGES/Marketplace.html" data-bs-toggle="dropdown" aria-expanded="false">
-                                Comprar
-                                </a>
-                            
-                                <ul class="dropdown-menu ">
+                <!-- Comienzo Menu -->
+                <div class="order-md-1 d-flex justify-content-end d-xl-none fixed-top">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="bi bi-menu-button-wide"></span>
+                    </button>
+                </div>            
+                <div class="col-9 col-lg-8 collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-xl-0 me-xl-5">
+                        <li class="nav-item ms-lg-3 ms-xl-4">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-lg-3 ms-xl-4" href="PAGES/Marketplace.html" data-bs-toggle="dropdown" aria-expanded="false">
+                            Comprar
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./PAGES/iPhone.html">iPhone</a></li>
-                                <li><a class="dropdown-item" href="#">iPad</a></li>
-                                <li><a class="dropdown-item" href="#">Mac</a></li>
-                                <li><a class="dropdown-item" href="#">Watch</a></li>
-                                <li><a class="dropdown-item" href="#">Airpods</a></li>
-                                <li><a class="dropdown-item" href="#">Tv y Casa</a></li>
-                                </ul>
-                            </div>
-                            <li class="nav-item ms-3">
-                                <a class="nav-link text-light" href="#">Sobre nosotros</a>
-                            </li>
-                            <li class="nav-item ms-3">
-                                <a class="nav-link text-light" href="#">Contacto</a>
-                            </li>
-                            <li class="nav-item ms-3">
-                                <a class="nav-link text-light" href="#">Log-in</a>
-                            </li>   
-                            <li class="nav-item row align-items-center ms-3 me-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart4 text-light" viewBox="0 0 16 16">
-                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                                </svg>
-                            </li>                                   
-                        </ul>                
-                    </div>
+                                <li><a class="dropdown-item" href="./PAGES/error404.html">iPad</a></li>
+                                <li><a class="dropdown-item" href="./PAGES/error404.html">Mac</a></li>
+                                <li><a class="dropdown-item" href="./PAGES/error404.html">Watch</a></li>
+                                <li><a class="dropdown-item" href="./PAGES/error404.html">Airpods</a></li>
+                                <li><a class="dropdown-item" href="./PAGES/error404.html">Tv y Casa</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-lg-3 ms-xl-4">
+                            <a class="nav-link" href="./PAGES/AboutUs.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item ms-lg-3 ms-xl-4">
+                            <a class="nav-link" href="./PAGES/Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item ms-lg-3 ms-xl-4">
+                            <a class="nav-link" href="./PAGES/LogIn.html">Log-in</a>
+                        </li>
+                        <!-- Comienzo carrito -->
+                        <li class="nav-item row align-items-center ms-lg-3 ms-xl-4">
+                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-cart4"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-search">
+                                <!-- Producto 1 -->
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center mt-3 p-2 cartItem">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <img class="rounded" src="./ASSETS/IMAGES/PRODUCTOS/iPhone14Pro/iP14ProMorado.jpg" width="100">
+                                            <div class="ml-2">
+                                                <span class="font-weight-bold d-block">Iphone 14 pro</span>
+                                                <span class="spec">512GB, Morado oscuro</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <span class="d-block me-5">Cant.: 1</span>
+                                            <span class="d-block ml-5 font-weight-bold">U$D 1.299,00</span>
+                                            <i class="bi bi-trash3 mx-3 text-black-50"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Producto 1 -->
+                                <!-- Producto 2 -->
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center mt-3 p-2 cartItem">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <img class="rounded" src="./ASSETS/IMAGES/PRODUCTOS/AirPodsPro2gen.jpg" width="100">
+                                            <div class="ml-2">
+                                                <span class="font-weight-bold d-block">AirPods Pro</span>
+                                                <span class="spec">(2nd generación)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <span class="d-block me-5">Cant.: 1</span>
+                                            <span class="d-block ml-5 font-weight-bold">U$D 249,00</span>
+                                            <i class="bi bi-trash3 mx-3 text-black-50"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Producto 2 -->
+                                <div class="d-flex justify-content-end pe-4 pb-2">
+                                    <a href="./PAGES/Cart.html"><button class="btn btn-primary-blue" type="submit">Ir al carrito</button></a>
+                                </div>
+                            </ul>
+                        </li>
+                        <!-- Final carrito -->
+                        <!-- Comienzo Buscador -->
+                        <li class="nav-item row align-items-center ms-lg-3 ms-xl-4">
+                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-search"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-search me-5">                        
+                                <li>
+                                    <div class="d-flex justify-content-end py-2 px-3">
+                                        <div id="buscador">
+                                            <form class="d-flex">
+                                                <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search">
+                                                <button class="btn btn-primary-blue" type="submit">Buscar</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Final Buscador -->
+                    </ul>
                 </div>
-                <!-- Final de las páginas -->
-                <!-- FINAL DEL NAVBAR -->
+                <!-- Final Menu -->
             </div>
-        </nav>        
-   <!-- FINAL DEL HEADER -->
+        </div>
+    </nav>     
+    <!-- FINAL DEL HEADER -->
 
    <!-- COMIENZO DEL MAIN -->
 <main>
@@ -86,11 +141,11 @@
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-xl-6 order-xl-last">
                             <img class="img-fluid" src="ASSETS/IMAGES/PRODUCTOS/Iphone_14_present.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
+                        <div class="col-xl-6 mb-0 d-flex align-items-center">
+                            <div  class="text-align-left flex-fill">
                                 <h1 class="h1">iPhone 14 Pro</h1>
                                 <h3 class="h2">Mucho más que Pro</h3>
                                 <a href="PAGES/iPhone14Pro.html"><button type="button" class="btn btn-primary">Más información</button></a>                                
@@ -102,11 +157,11 @@
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-xl-6 order-xl-last">
                             <img class="img-fluid" src="ASSETS/IMAGES/PRODUCTOS/AppleWatch_8.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
+                        <div class="col-xl-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left flex-fill">
                                 <h1 class="h1">Apple Watch 8</h1>
                                 <h3 class="h2">Una evolución muy saludable</h3>
                                 <button type="button" class="btn btn-primary">Más información</button>
@@ -118,11 +173,11 @@
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-xl-6 order-xl-last">
                             <img class="img-fluid" src="ASSETS/IMAGES/PRODUCTOS/iPadPro.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
+                        <div class="col-xl-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left flex-fill">
                                 <h1 class="h1">iPad Pro</h1>
                                 <h3 class="h2">Con los superpoderes del chip M2</h3>
                                 <button type="button" class="btn btn-primary">Más información</button>
@@ -134,11 +189,11 @@
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-xl-6 order-xl-last">
                             <img class="img-fluid" src="ASSETS/IMAGES/PRODUCTOS/MacBookPro.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
+                        <div class="col-xl-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left flex-fill">
                                 <h1 class="h1">MacBook Pro</h1>
                                 <h3 class="h2">Con los superpoderes de los chips M2 Pro y M2 Max</h3>
                                 <button type="button" class="btn btn-primary">Más información</button>
@@ -159,9 +214,64 @@
     </div>
    <!-- FINAL DEL BANNER -->
 
-    <section id="Bloque intermedio" class="d-flex">
+    <section id="middleBlock" class="d-flex">
+        <!-- COMIENZO PUBLICIDAD DER -->   
+        <section id="rightAd" class="col pt-xl-5">
+            <div class="bg-title Publicidad text-center d-flex align-items-center justify-content-center">
+                <img src="./ASSETS/IMAGES/PUBLICIDAD/LOGO azul - marca de agua.png" alt="">
+                <h5>Los materiales que queres, cuando los queres.</h5>
+            </div>    
+        </section>
+        <!-- FINAL PUBLICIDAD DER -->
+
+        <!-- COMIENZO CATEGORIAS -->
+        <section class="bg-light mt-xl-5 col-12 col-xl-9">
+            <!-- Comienzo Titulo -->
+            <div id="catTitle" class="text-center pt-5">
+                <h1>Categorías</h1>
+            </div>
+            <!-- Final Titulo -->
+            
+            <!-- Comienzo Cards Categorías -->
+            <div class="container-fluid">
+                <div id="catCards" class="row justify-content-center">
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/iPhones.jpg" class="rounded-circle img-fluid border"></a>
+                        <h5 class="text-center mt-3 mb-3">iPhone</h5>
+                        <p class="text-center"><a href="./PAGES/iPhone.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/iPads.jpg" class="rounded-circle img-fluid border"></a>
+                        <h2 class="h5 text-center mt-3 mb-3">iPad</h2>
+                        <p class="text-center"><a href="./PAGES/error404.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Macs.jpg" class="rounded-circle img-fluid border"></a>
+                        <h2 class="h5 text-center mt-3 mb-3">Mac</h2>
+                        <p class="text-center"><a href="./PAGES/error404.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Watchs.jpg" class="rounded-circle img-fluid border"></a>
+                        <h2 class="h5 text-center mt-3 mb-3">Watch</h2>
+                        <p class="text-center"><a href="./PAGES/error404.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Pods.jpg" class="rounded-circle img-fluid border"></a>
+                        <h2 class="h5 text-center mt-3 mb-3">Airpods</h2>
+                        <p class="text-center"><a href="./PAGES/error404.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                    <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
+                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/aTV.jpg" class="rounded-circle img-fluid border"></a>
+                        <h2 class="h5 text-center mt-3 mb-3">Tv y Casa</h2>
+                        <p class="text-center"><a href="./PAGES/error404.html" class="btn btn-primary">Comprar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Final Cards Categorías -->
+        </section>
+
         <!-- COMIENZO PUBLICIDAD IZQ -->   
-        <section id="Publiidad Izq." class="col mt-5">
+        <section id="leftAd" class="col mt-5 d-none d-xl-block">
             <div class="bg-title Publicidad text-center d-flex align-items-center justify-content-center">
                 <img src="./ASSETS/IMAGES/PUBLICIDAD/LOGO azul - marca de agua.png" alt="">
                 <h5>Los materiales que queres, cuando los queres.</h5>
@@ -169,157 +279,47 @@
         </section>
         <!-- FINAL PUBLICIDAD IZQ -->
 
-        <!-- COMIENZO CATEGORIAS -->
-        <section class="bg-light mt-5 col-9">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/iPhones.jpg" class="rounded-circle img-fluid border"></a>
-                        <h5 class="text-center mt-3 mb-3">iPhone</h5>
-                        <p class="text-center"><a href="./PAGES/iPhone.html" class="btn btn-primary">Comprar</a></p>
-                    </div>
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/iPads.jpg" class="rounded-circle img-fluid border"></a>
-                        <h2 class="h5 text-center mt-3 mb-3">iPad</h2>
-                        <p class="text-center"><a class="btn btn-primary">Comprar</a></p>
-                    </div>
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Macs.jpg" class="rounded-circle img-fluid border"></a>
-                        <h2 class="h5 text-center mt-3 mb-3">Mac</h2>
-                        <p class="text-center"><a class="btn btn-primary">Comprar</a></p>
-                    </div>
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Watchs.jpg" class="rounded-circle img-fluid border"></a>
-                        <h2 class="h5 text-center mt-3 mb-3">Watch</h2>
-                        <p class="text-center"><a class="btn btn-primary">Comprar</a></p>
-                    </div>
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/Pods.jpg" class="rounded-circle img-fluid border"></a>
-                        <h2 class="h5 text-center mt-3 mb-3">Airpods</h2>
-                        <p class="text-center"><a class="btn btn-primary">Comprar</a></p>
-                    </div>
-                    <div class="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src="ASSETS/IMAGES/PRODUCTOS/aTV.jpg" class="rounded-circle img-fluid border"></a>
-                        <h2 class="h5 text-center mt-3 mb-3">Tv y Casa</h2>
-                        <p class="text-center"><a class="btn btn-primary">Comprar</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- COMIENZO PUBLICIDAD DER -->   
-        <section id="Publicidad Izq." class="col mt-5">
-            <div class="bg-title Publicidad text-center d-flex align-items-center justify-content-center">
-                <img src="./ASSETS/IMAGES/PUBLICIDAD/LOGO azul - marca de agua.png" alt="">
-                <h5>Los materiales que queres, cuando los queres.</h5>
-            </div>    
-        </section>
-        <!-- FINAL PUBLICIDAD DER -->
     </section>
     <!-- FINAL CATEGORIAS -->
 </main>
 <!-- FINAL DEL MAIN -->
 
 <!-- COMIENZO DEL FOOTER -->
-<footer class="bg-dark" id="tempaltemo_footer">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-4 pt-5">
-                <img src="ASSETS/IMAGES/LOGO/Logo-Color-Transp.png" alt="" class="col-9">
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li>
-                        <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Balcarce 811 - 3°E
-                    </li>
-                    <li>
-                        <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none footer-txt" href="tel:3816022854">+5493816022854</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none footer-txt" href="mailto:info@company.com">info@technotuc.com</a>
-                    </li>
+<footer>
+        <div class="footercompleto">
+            <div class="footerall">
+                <div class="columna1logo">
+                    <a href="/error404.html" target="_blank"><img src="./ASSETS/IMAGES/LOGO/Logo-Blanco-Transp.png" alt="logoproyecto"></a>
+                </div>
+                <div class="columna2nav">
+                <ul>
+                    <li><a href="./PAGES/AboutUs.html" target="_blank">NOSOTROS</a></li>
+                    <li><a href="./PAGES/error404.html" target="_blank">TIENDA</a></li>
+                    <li><a href="./PAGES/error404.html" target="_blank">OFERTAS</a></li>
+                    <li><a href="./PAGES/error404.html" target="_blank">CONTACTANOS</a></li>
+                    <li><a href="./PAGES/error404.html" target="_blank">OPINA</a></li>
                 </ul>
-            </div>
-
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 footer-title border-bottom pb-3 border-light">Productos</h2>
-                <div class="d-flex">
-                    <ul class="list-unstyled text-light footer-link-list me-5">
-                        <li><a class="text-decoration-none footer-txt" href="./PAGES/iPhone.html">iPhone</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">iPad</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Mac</a></li>
-                    </ul>
-                    <ul class="list-unstyled text-light footer-link-list ms-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">Watch</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Airpods</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Tv y Casa</a></li>
+                </div>
+                <div class="columna3redes">
+                    <ul style="list-style-type: none;">
+                        <li><a href="/error404.html" target="_blank"><img src="./ASSETS/IMAGES/ICONS/facebook.png" alt="facebook"></a></li>
+                        <li><a href="/error404.html" target="_blank"><img src="./ASSETS/IMAGES/ICONS/instagram.png" alt="ig"></a></li>
+                        <li><a href="/error404.html" target="_blank"><img src="./ASSETS/IMAGES/ICONS/whatsapp.png" alt="whatsapp"></a></li>
+                        <li><a href="/error404.html" target="_blank"><img src="./ASSETS/IMAGES/ICONS/twitter.png" alt="pajarito"></a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 footer-title border-bottom pb-3 border-light">Más información</h2>
-                <div class="d-flex">
-                    <ul class="list-unstyled text-light footer-link-list me-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">Inicio</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Sobre nosotros</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Ubicación</a></li>                    
-                    </ul>
-                    <ul class="list-unstyled text-light footer-link-list ms-5">
-                        <li><a class="text-decoration-none footer-txt" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none footer-txt" href="#">Contacto</a></li>
-                    </ul>
+            <div class="coopiraiiii">
+                <div class="barraseparadora">
+                    <hr>
                 </div>
-            </div>
-
-        </div>
-
-        <div class="row text-light mb-4">
-            <div class="col-12 mb-3">
-                <div class="w-100 my-3 border-top border-light"></div>
-            </div>
-            <div class="col-auto me-auto">
-                <ul class="list-inline text-left footer-icons">
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item h2 ms-2">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-auto">
-                <label class="sr-only" for="subscribeEmail">Dirección de Email</label>
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Dirección de Email">
-                    <div class="input-group-text btn-primary">Subscribirse</div>
+                <div class="tectofinaldelpie">
+                    <H4 class="copyrighttext"><center>Copyright ©</center></H4>
                 </div>
+                
             </div>
         </div>
-    </div>
-
-    <div class="w-100 bg-black py-3">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-12">
-                    <p class="text-left text-light">
-                        Copyright &copy; 2021 Company Name 
-                        | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</footer>
+    </footer>
 <!-- FINAL DEL FOOTER -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
