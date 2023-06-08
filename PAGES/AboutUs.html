@@ -16,7 +16,7 @@
 
 <body class="bg-light">
     <!-- COMIENZO DEL HEADER -->        
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 bg-body">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 bg-body z-3">
         <div class="container-fluid">
             <div class="row">
                 <!-- Comienzo Logo -->
@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <!-- Final Logo -->
-    
+
                 <!-- Comienzo Menu -->
                 <div class="order-md-1 d-flex justify-content-end d-xl-none fixed-top">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
                             <a class="nav-link dropdown-toggle ms-lg-3 ms-xl-4" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                             Comprar
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu z-3">
                                 <li><a class="dropdown-item" href="iPhone.html">iPhone</a></li>
                                 <li><a class="dropdown-item" href="./error404.html">iPad</a></li>
                                 <li><a class="dropdown-item" href="./error404.html">Mac</a></li>
@@ -118,8 +118,8 @@
                                     <div class="d-flex justify-content-end py-2 px-3">
                                         <div id="buscador">
                                             <form class="d-flex">
-                                                <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search">
-                                                <button class="btn btn-primary-rev" type="submit">Buscar</button>
+                                                <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search" maxlength="30" required>
+                                                <button class="btn btn-primary-blue" type="submit">Buscar</button>
                                             </form>
                                         </div>
                                     </div>
@@ -133,7 +133,7 @@
             </div>
         </div>
     </nav>      
-  <!-- FINAL DEL HEADER -->
+    <!-- FINAL DEL HEADER -->
 
 
   <section class="container">
@@ -176,8 +176,8 @@
                     <a href="#"><img src="../ASSETS/IMAGES/ABOUT/WhatsApp Image 2023-05-30 at 19.41.58.jpeg" class="rounded-circle img-fluid border shadow-lg"></a>
                     <div class="text-center aboutInfo">
                         <h5 class="m-3">Franco Alejandro Zapata</h5>
-                        <p><span style="font-weight: bold">Edad:</span> -</p>
-                        <p><span style="font-weight: bold">Intereses:</span> -</p>
+                        <p><span style="font-weight: bold">Edad:</span> 30 años</p>
+                        <p><span style="font-weight: bold">Intereses:</span> Tocar la guitarra y componer</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 p-5 mt-3 d-flex flex-column align-items-center">
@@ -194,43 +194,43 @@
     </section>
   </section>
 
-  <!-- COMIENZO DEL FOOTER -->
-  <footer>
-    <div class="footercompleto">
-        <div class="footerall">
-            <div class="columna1logo">
-                <a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/LOGO/Logo-Blanco-Transp.png" alt="logoproyecto"></a>
-            </div>
-            <div class="columna2nav">
-            <ul>
-                <li><a href="./PAGES/error404.html" target="_blank">NOSOTROS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">TIENDA</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">OFERTAS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">CONTACTANOS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">OPINA</a></li>
-            </ul>
-            </div>
-            <div class="columna3redes">
-                <ul style="list-style-type: none;">
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/facebook.png" alt="facebook"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/instagram.png" alt="ig"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/whatsapp.png" alt="whatsapp"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/twitter.png" alt="pajarito"></a></li>
+    <!-- COMIENZO DEL FOOTER -->
+    <footer>
+        <div class="footercompleto">
+            <div class="footerall">
+                <div class="columna1logo">
+                    <a href="#"><img src="../ASSETS/IMAGES/LOGO/Logo-Blanco-Transp.png" alt="logoproyecto"></a>
+                </div>
+                <div class="columna2nav">
+                <ul>
+                    <li><a href="../PAGES/AboutUs.html">NOSOTROS</a></li>
+                    <li><a href="../PAGES/error404.html">TIENDA</a></li>
+                    <li><a href="../PAGES/error404.html">OFERTAS</a></li>
+                    <li><a href="../PAGES/Contacto.html">CONTACTANOS</a></li>
+                    <li><a href="../PAGES/error404.html">OPINA</a></li>
                 </ul>
+                </div>
+                <div class="columna3redes">
+                    <ul style="list-style-type: none;">
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/instagram.png" alt="ig"></a></li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/whatsapp.png" alt="whatsapp"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/twitter.png" alt="pajarito"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="coopiraiiii">
+                <div class="barraseparadora">
+                    <hr>
+                </div>
+                <div class="tectofinaldelpie">
+                    <H4 class="copyrighttext"><center>Copyright ©</center></H4>
+                </div>
+                
             </div>
         </div>
-        <div class="coopiraiiii">
-            <div class="barraseparadora">
-                <hr>
-            </div>
-            <div class="tectofinaldelpie">
-                <H4 class="copyrighttext"><center>Copyright ©</center></H4>
-            </div>
-            
-        </div>
-    </div>
-  </footer>
-  <!-- FINAL DEL FOOTER -->
+    </footer>
+    <!-- FINAL DEL FOOTER -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

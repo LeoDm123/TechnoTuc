@@ -678,6 +678,18 @@
     .nav-link {
         color: #0074d9 !important;
     }
+
+    .Ceramic-txt h1 {
+        background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 20px;
+    }
+
+    .iP14options {
+        width: 300px !important;
+    }
+
 }
 
 @media (max-width: 991px){
@@ -748,6 +760,7 @@
         width: 50px;
         height: 50px;
         border-color:#fff !important;
+        background-color: #0074d9 !important;   
     }
 
     .bi-menu-button-wide {
@@ -852,6 +865,10 @@
         margin:0;
         width: 200px;
     }
+
+    .Ceramic-img {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -883,6 +900,10 @@
         right: 25px !important;
         align-items: center !important;
     }
+
+    .iP14options {
+        width: 300px !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -896,6 +917,7 @@
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(0,116,217,1) 55%);
     }
+
 }
 
 @media (min-width: 1200px) {
@@ -919,9 +941,164 @@
     }   
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .DI-purple {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+    
+    .prop-txt-cam {
+        position: absolute;
+        white-space: pre-line;
+        font-size: 22px;
+        width: 220px;
+        bottom: 20px;
+        left: 50px;
+        color: #c8c8c8;
+    }
 
+    .prop-txt-chip {
+        position: absolute;
+        white-space: pre-line;
+        font-size: 30px;
+        width: 200px;
+        bottom: 120px;
+        left: 50px;
+        background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
+    .prop-img-chip {
+        object-fit: cover !important;
+        width: 100%;
+        position: relative;
+        top:160px;
+        left:50px;
+        clip-path: inset(0 50px 160px 0 round 0 0 30px 0);
+    }
 
+    .prop-txt-AM {
+        position: absolute;
+        white-space: pre-line;
+        width: 250px;
+        bottom: 320px;
+        left: 30px;
+        color: #c8c8c8;
+    }
+
+    .Ceramic-img {
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+
+    #WaterResistImg {
+        width: 80% !important;
+    }
+
+    .WR-txt {
+        position: absolute;
+        white-space: pre-line;
+        width: 300px;
+        bottom: 20px;
+        left: 60px;
+        color: #c8c8c8;
+    }
+
+    #SelfieImg {
+        width: 300px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .DI-purple {
+    background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+    
+    .prop-txt-cam {
+        position: absolute;
+        white-space: pre-line;
+        font-size: 22px;
+        width: 220px;
+        bottom: 20px;
+        left: 50px;
+        color: #c8c8c8;
+    }
+
+    .prop-txt-chip {
+        position: absolute;
+        white-space: pre-line;
+        font-size: 30px;
+        width: 300px;
+        bottom: 200px;
+        left: 50px;
+        background: -webkit-linear-gradient(#ffb6ff, #b344ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .prop-img-chip {
+        object-fit: cover !important;
+        width: 100%;
+        position: relative;
+        top:160px;
+        left:50px;
+        clip-path: inset(0 50px 160px 0 round 0 0 30px 0);
+    }
+
+    .prop-txt-AM {
+        position: absolute;
+        white-space: pre-line;
+        width: 250px;
+        bottom: 380px;
+        left: 60px;
+        color: #c8c8c8;
+    }
+
+    .Ceramic-img {
+        width: 80% !important;
+    }
+
+    #WaterResistImg {
+        width: 80% !important;
+    }
+
+    .WR-txt {
+        position: absolute;
+        white-space: pre-line;
+        width: 300px;
+        bottom: 20px;
+        left: 80px;
+        color: #c8c8c8;
+    }
+
+    .Selfie-txt {
+        color: #c8c8c8;
+        padding: 30px;
+        margin-left: 20px;
+    }
+
+    #SelfieImg {
+        width: 300px !important;
+    }
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .bg-body {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(0,116,217,1) 55%);
+    }
+}
 
 
 
@@ -929,7 +1106,7 @@
 /* XXXXXXXXXXXXXXXX FOOTER XXXXXXXXXXXXXX */
 
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
     footer{
     background-color: rgb(55, 59, 65);
     color: white;
@@ -997,7 +1174,7 @@
     }
  }
    /* ////////////////////////////tablet///////////////..../////////////////////////////////////////// breakpoint pantalla tablet*/
-   @media (min-width: 576px) and (max-width: 768px) {
+   @media (min-width: 576px) and (max-width: 1199px) {
     body {
     font-size: 18px;
     }
@@ -1145,7 +1322,7 @@
 /* xxxxxxxxxxxxxxxxxx LOGIN xxxxxxxxxxxxxx */
 .container-login {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1222,6 +1399,68 @@
     color: #fff !important;
 }
 
+.card-body a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.custom-select {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+    display: flex;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+
 /* XXXXXXXXXXXXXX CARRITO XXXXXXXXXXXXX */
 .payment-info {
     background:#c8c8c8;
@@ -1288,9 +1527,9 @@
   }
   
   .credit-inputs {
-    background: #c8c8c8;
-    color: #fff !important;
-    border-color: #ada9a9;
+    background: #fff !important;
+    color: #403e3d !important;
+    border-color: #ada9a9 !important;
   }
   
   .credit-inputs::placeholder {
@@ -1305,8 +1544,8 @@
   }
   
   .form-control.credit-inputs:focus {
-    background:#ddd;
-    border:#0074d9;
+    background:#ddd !important;
+    border:#0074d9 !important;
   }
   
   .line {
@@ -1331,6 +1570,18 @@
   .spec {
     font-size: 11px;
   }
+
+  .back {
+    color:#403e3d;
+  }
+
+  .Qty {
+    width: 100px;
+  }
+
+  .Price {
+    width: 100px;
+  }
   
 /* XXXXXXXXXXXXXX ERROR 404 XXXXXXXXXXXXXX */
 .error-template {  
@@ -1352,3 +1603,4 @@
     margin: 0 !important;
 }
 
+/* XXXXXXXXXXXXXXX CONTACTO XXXXXXXXXXXXXXX */

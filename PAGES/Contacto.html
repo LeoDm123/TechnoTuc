@@ -17,7 +17,7 @@
 
 <body>
     <!-- COMIENZO DEL HEADER -->        
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 bg-body">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 bg-body z-3">
         <div class="container-fluid">
             <div class="row">
                 <!-- Comienzo Logo -->
@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <!-- Final Logo -->
-    
+
                 <!-- Comienzo Menu -->
                 <div class="order-md-1 d-flex justify-content-end d-xl-none fixed-top">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                             <a class="nav-link dropdown-toggle ms-lg-3 ms-xl-4" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                             Comprar
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu z-3">
                                 <li><a class="dropdown-item" href="iPhone.html">iPhone</a></li>
                                 <li><a class="dropdown-item" href="./error404.html">iPad</a></li>
                                 <li><a class="dropdown-item" href="./error404.html">Mac</a></li>
@@ -119,8 +119,8 @@
                                     <div class="d-flex justify-content-end py-2 px-3">
                                         <div id="buscador">
                                             <form class="d-flex">
-                                                <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search">
-                                                <button class="btn btn-primary-rev" type="submit">Buscar</button>
+                                                <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search" maxlength="30" required>
+                                                <button class="btn btn-primary-blue" type="submit">Buscar</button>
                                             </form>
                                         </div>
                                     </div>
@@ -144,82 +144,84 @@
     </div>
     <!-- FINAL DEL TITULO -->
 
-    <!-- COMIENZO DEL MAPA -->
-    <div class="container-fluid">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370980829!2d-65.2097767236088!3d-26.83669609003371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1685994530289!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <!-- FINAL DEL MAPA -->
-
-    <!-- COMIENZO FORMA -->
-    <div class="container py-5">
-        <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
-                <div class="row">
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputname">Nombre</label>
-                        <input type="text" class="form-control mt-1" id="nombre" name="nombre" placeholder="Nombre">
-                    </div>
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputemail">Email</label>
-                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <label for="inputsubject">Asunto</label>
-                    <input type="text" class="form-control mt-1" id="asunto" name="asunto" placeholder="Asunto">
-                </div>
-                <div class="mb-3">
-                    <label for="inputmessage">Mensaje</label>
-                    <textarea class="form-control mt-1" id="mensaje" name="mensaje" placeholder="Mensaje" rows="8"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-primary-blue">Enviar</button>
-                    </div>
-                </div>
-            </form>
+    <div class="d-lg-flex">
+        <!-- COMIENZO DEL MAPA -->
+        <div class="col-lg-5 ps-lg-5 pt-lg-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370980829!2d-65.2097767236088!3d-26.83669609003371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1685994530289!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </div>
-    <!-- FINAL FORMA -->
+        <!-- FINAL DEL MAPA -->
+
+        <!-- COMIENZO FORMA -->
+        <div class="container">
+            <div class="row py-5">
+                <form class="col-md-9 m-auto">
+                    <div class="row">
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="inputname">Nombre</label>
+                            <input type="text" class="form-control mt-1" id="nombre" name="nombre" placeholder="Nombre" maxlength="30" required>
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="inputemail">Email</label>
+                            <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email" maxlength="30" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputsubject">Asunto</label>
+                        <input type="text" class="form-control mt-1" id="asunto" name="asunto" placeholder="Asunto" maxlength="50" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputmessage">Mensaje</label>
+                        <textarea class="form-control mt-1" id="mensaje" name="mensaje" placeholder="Mensaje" rows="8" required></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="text-end mt-2">
+                            <button type="submit" class="btn btn-primary-blue" style="width: 200px;">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- FINAL FORMA -->
+    </div>  
 
 
     <!-- COMIENZO DEL FOOTER -->
-  <footer>
-    <div class="footercompleto">
-        <div class="footerall">
-            <div class="columna1logo">
-                <a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/LOGO/Logo-Blanco-Transp.png" alt="logoproyecto"></a>
-            </div>
-            <div class="columna2nav">
-            <ul>
-                <li><a href="./PAGES/error404.html" target="_blank">NOSOTROS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">TIENDA</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">OFERTAS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">CONTACTANOS</a></li>
-                <li><a href="./PAGES/error404.html" target="_blank">OPINA</a></li>
-            </ul>
-            </div>
-            <div class="columna3redes">
-                <ul style="list-style-type: none;">
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/facebook.png" alt="facebook"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/instagram.png" alt="ig"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/whatsapp.png" alt="whatsapp"></a></li>
-                    <li><a href="/error404.html" target="_blank"><img src="../ASSETS/IMAGES/ICONS/twitter.png" alt="pajarito"></a></li>
+    <footer>
+        <div class="footercompleto">
+            <div class="footerall">
+                <div class="columna1logo">
+                    <a href="#"><img src="../ASSETS/IMAGES/LOGO/Logo-Blanco-Transp.png" alt="logoproyecto"></a>
+                </div>
+                <div class="columna2nav">
+                <ul>
+                    <li><a href="../PAGES/AboutUs.html">NOSOTROS</a></li>
+                    <li><a href="../PAGES/error404.html">TIENDA</a></li>
+                    <li><a href="../PAGES/error404.html">OFERTAS</a></li>
+                    <li><a href="../PAGES/Contacto.html">CONTACTANOS</a></li>
+                    <li><a href="../PAGES/error404.html">OPINA</a></li>
                 </ul>
+                </div>
+                <div class="columna3redes">
+                    <ul style="list-style-type: none;">
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/instagram.png" alt="ig"></a></li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/whatsapp.png" alt="whatsapp"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><img src="../ASSETS/IMAGES/ICONS/twitter.png" alt="pajarito"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="coopiraiiii">
+                <div class="barraseparadora">
+                    <hr>
+                </div>
+                <div class="tectofinaldelpie">
+                    <H4 class="copyrighttext"><center>Copyright ©</center></H4>
+                </div>
+                
             </div>
         </div>
-        <div class="coopiraiiii">
-            <div class="barraseparadora">
-                <hr>
-            </div>
-            <div class="tectofinaldelpie">
-                <H4 class="copyrighttext"><center>Copyright ©</center></H4>
-            </div>
-            
-        </div>
-    </div>
-  </footer>
-  <!-- FINAL DEL FOOTER -->
+    </footer>
+    <!-- FINAL DEL FOOTER -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
